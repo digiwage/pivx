@@ -165,20 +165,20 @@ public:
 
         // height-based activations
         consensus.height_last_PoW = 300;
-        consensus.height_last_ZC_AccumCheckpoint = 425;
-        consensus.height_last_ZC_WrappedSerials = 425;
+        consensus.height_last_ZC_AccumCheckpoint = 625;
+        consensus.height_last_ZC_WrappedSerials = 625;
         consensus.height_start_BIP65 = 425;             // Block v5: 82629b7a9978f5c7ea3f70a12db92633a7d2e436711500db28b97efd48b1e527
-        consensus.height_start_InvalidUTXOsCheck = 425;
-        consensus.height_start_MessSignaturesV2 = 425;  // height_start_TimeProtoV2
+        consensus.height_start_InvalidUTXOsCheck = 625;
+        consensus.height_start_MessSignaturesV2 = 625;  // height_start_TimeProtoV2
         consensus.height_start_StakeModifierNewSelection = 320;
-        consensus.height_start_StakeModifierV2 = 425;   // Block v6: 0ef2556e40f3b9f6e02ce611b832e0bbfe7734a8ea751c7b555310ee49b61456
-        consensus.height_start_TimeProtoV2 = 425;       // Block v7: 14e477e597d24549cac5e59d97d32155e6ec2861c1003b42d0566f9bf39b65d5
-        consensus.height_start_ZC = 300;                 // Block v4: 5b2482eca24caf2a46bb22e0545db7b7037282733faa3a42ec20542509999a64
-        consensus.height_start_ZC_InvalidSerials = 425;
-        consensus.height_start_ZC_PublicSpends = 425;
-        consensus.height_start_ZC_SerialRangeCheck = 425;
-        consensus.height_start_ZC_SerialsV2 = 425;
-        consensus.height_ZC_RecalcAccumulators = 425;
+        consensus.height_start_StakeModifierV2 = 625;   // Block v6: 0ef2556e40f3b9f6e02ce611b832e0bbfe7734a8ea751c7b555310ee49b61456
+        consensus.height_start_TimeProtoV2 = 625;       // Block v7: 14e477e597d24549cac5e59d97d32155e6ec2861c1003b42d0566f9bf39b65d5
+        consensus.height_start_ZC = 301;                 // Block v4: 5b2482eca24caf2a46bb22e0545db7b7037282733faa3a42ec20542509999a64
+        consensus.height_start_ZC_InvalidSerials = 625;
+        consensus.height_start_ZC_PublicSpends = 625;
+        consensus.height_start_ZC_SerialRangeCheck = 625;
+        consensus.height_start_ZC_SerialsV2 = 625;
+        consensus.height_ZC_RecalcAccumulators = 625;
 
         // validation by-pass
         consensus.nPivxBadBlockTime = 1471401614;    // Skip nBit validation of Block 259201 per PR #915
@@ -195,7 +195,7 @@ public:
         consensus.ZC_MaxSpendsPerTx = 7;            // Assume about 20kb each input
         consensus.ZC_MinMintConfirmations = 20;
         consensus.ZC_MinMintFee = 1 * CENT;
-        consensus.ZC_MinStakeDepth = 200;
+        consensus.ZC_MinStakeDepth = 100;
         consensus.ZC_TimeStart = 1508214600;        // October 17, 2017 4:30:00 AM
         consensus.ZC_WrappedSerialsSupply = 4131563 * COIN;   // zerocoin supply at height_last_ZC_WrappedSerials
 
